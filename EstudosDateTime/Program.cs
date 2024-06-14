@@ -7,6 +7,51 @@ namespace EstudosDateTime
     {
         static void Main(string[] args)
         {
+            DateTime h1 = DateTime.Parse("2000-08-15 13:05:58"); //formatação padrão local
+            DateTime h2 = DateTime.Parse("2000-08-15T13:05:58Z"); //formatação ISO ja com horario UTC
+
+            Console.WriteLine(h1); //manteve o local
+            Console.WriteLine(h1.Kind); //não é especificada, não é o adequado
+            Console.WriteLine(h1.ToLocalTime());//por não ser kind especificado ele subtrai 3
+            Console.WriteLine(h1.ToUniversalTime());//por não ser kind especificado ele adiciona 3
+            Console.WriteLine();
+            Console.WriteLine(h2);//feito no formato ISO
+            Console.WriteLine(h2.Kind); //ja considera como local, pois com ISO ele ja recebe 3 hrs
+            Console.WriteLine(h2.ToLocalTime()); //por ser considerado ISO +3 horas, quando convertida para local ele subtrai 3
+            Console.WriteLine(h2.ToUniversalTime());//por ser considerada ISO +3, ele entende que aquela é o horario certo
+            Console.WriteLine();
+            Console.WriteLine(h2.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")); //sempre passe ToUniversalTime() quando retornar em string
+            
+
+
+            Console.WriteLine();
+            Console.WriteLine("------------------------------");
+
+            DateTime k1 = new DateTime(2000, 8, 15, 13, 5, 58, DateTimeKind.Local); //instanciando uma data como se fosse no meu horario local, porem não muda, pois o C# entende que sua intancia é como quer
+
+            DateTime k2 = new DateTime(2000, 8, 15, 13, 5, 58, DateTimeKind.Utc); //instanciando para o horario utc
+
+            DateTime k3 = new DateTime(2000, 8, 15, 13, 5, 58);
+
+            Console.WriteLine(k1);
+            Console.WriteLine(k1.Kind); //mostra qual o tipo de horario que está sendo usado
+            Console.WriteLine(k1.ToLocalTime());//desta forma utiliza o horario local ou instanciado
+            Console.WriteLine(k1.ToUniversalTime()); //desta forma ele utiliza o horario utc
+            Console.WriteLine();
+            Console.WriteLine(k2);
+            Console.WriteLine(k2.Kind); //mostra qual o tipo de horario que está sendo usado
+            Console.WriteLine(k2.ToLocalTime());//desta forma utiliza o horario local ou instanciado, como em k2 era utc, ele volta 3 horas
+            Console.WriteLine(k2.ToUniversalTime()); //desta forma ele utiliza o horario utc, por k2 ja ser utc, ele apenas mantem 
+            Console.WriteLine();
+            Console.WriteLine(k3);
+            Console.WriteLine(k3.Kind); //mostra qual o tipo de horario que está sendo usado, neste caso não esta sendo especificada, neste caso, no local ele subtrai 3 e no utc acrescenta 3
+            Console.WriteLine(k3.ToLocalTime());//desta forma utiliza o horario local ou instanciado, por k3 não ser especifico ele subtrai 3
+            Console.WriteLine(k3.ToUniversalTime()); //desta forma ele utiliza o horario utc, por k3 não ser especificado ele acrescenta 3
+
+
+            Console.WriteLine();
+            Console.WriteLine("-------------------------------------");
+
             DateTime q = new DateTime(2001, 8, 15, 14, 45, 58, 275);
 
             DateTime q2 = q.AddHours(2);//adicionando horas
