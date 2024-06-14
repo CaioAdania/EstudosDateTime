@@ -1,0 +1,14 @@
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\bin\Debug\net8.0\EstudosDateTime.exe
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\bin\Debug\net8.0\EstudosDateTime.deps.json
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\bin\Debug\net8.0\EstudosDateTime.runtimeconfig.json
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\bin\Debug\net8.0\EstudosDateTime.dll
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\bin\Debug\net8.0\EstudosDateTime.pdb
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\EstudosDateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\EstudosDateTime.AssemblyInfoInputs.cache
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\EstudosDateTime.AssemblyInfo.cs
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\EstudosDateTime.csproj.CoreCompileInputs.cache
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\EstudosDateTime.dll
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\refint\EstudosDateTime.dll
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\EstudosDateTime.pdb
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\EstudosDateTime.genruntimeconfig.cache
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\ref\EstudosDateTime.dll
