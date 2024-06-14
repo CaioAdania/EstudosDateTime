@@ -12,3 +12,4 @@ C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\De
 C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\EstudosDateTime.pdb
 C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\EstudosDateTime.genruntimeconfig.cache
 C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\ref\EstudosDateTime.dll
+C:\Users\caioa\Documents\Caio\VsCommunity\EstudosDateTime\EstudosDateTime\obj\Debug\net8.0\EstudosDateTime.sourcelink.json
